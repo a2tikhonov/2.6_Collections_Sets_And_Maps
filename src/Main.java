@@ -40,13 +40,5 @@ public class Main {
             }
         }
         System.out.println("wordsMap = " + wordsMap);
-        Integer sumOfDublicates = 0;
-        for (Map.Entry<String, Integer> dublicateWordsMap : wordsMap.entrySet()) {
-            if (dublicateWordsMap.getValue() > 1) {
-                sumOfDublicates += dublicateWordsMap.getValue();
-            }
-        }
-        System.out.println("sumOfDublicates = " + sumOfDublicates);
-
     }
 }
